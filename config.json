@@ -1,0 +1,33 @@
+{
+  "project": {
+    "name": "J.A.R.V.I.S.",
+    "version": "2.1.0"
+  },
+  "audio": {
+    "voice": "tr-TR-AhmetNeural",
+    "pause_threshold": 1.8,
+    "non_speaking_duration": 0.6,
+    "dynamic_energy_ratio": 1.5,
+    "phrase_time_limit": 12,
+    "ambient_duration": 3.0,
+    "silence_timeout_seconds": 120
+  },
+  "hud": {
+    "fps": 20,
+    "size": 260
+  },
+  "brain": {
+    "models": ["gemini-2.5-flash", "gemini-2.5-flash-lite"],
+    "timeout_seconds": 15
+  },
+  "network": {
+    "wol_broadcast": "192.168.1.255",
+    "known_ips": {
+      "192.168.0.1": "Modem",
+      "192.168.0.100": "Bilinmeyen",
+      "192.168.0.102": "Tablet",
+      "192.168.0.107": "Bilinmeyen",
+      "192.168.0.110": "Ampul"
+    }
+  }
+}

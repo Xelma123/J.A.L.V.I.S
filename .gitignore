@@ -1,0 +1,27 @@
+# Environment & Secrets
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+.venv/
+
+# ChromaDB data
+jarvis_memory/
+jarvis_db/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temp audio files
+jarvis_voice_*.mp3

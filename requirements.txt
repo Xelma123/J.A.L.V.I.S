@@ -1,0 +1,35 @@
+# JARVIS v2 - Gerekli Kütüphaneler
+# pip install -r requirements.txt
+
+# Temel
+google-generativeai>=0.8.0
+python-dotenv>=1.0.0
+chromadb>=0.5.0
+
+# Ses
+SpeechRecognition>=3.10.0
+edge-tts>=6.1.0
+pygame>=2.5.0
+pyaudio>=0.2.14         # FFT için (Windows: pip install pipwin && pipwin install pyaudio)
+
+# UI
+PyQt6>=6.7.0
+qasync>=0.27.1          # asyncio + PyQt6 köprüsü
+
+# Ekran Analizi
+mss>=9.0.0
+Pillow>=10.0.0
+
+# Otomasyon
+pyautogui>=0.9.54
+psutil>=6.0.0           # CPU/RAM metrikleri
+
+# Telegram
+python-telegram-bot>=21.0
+
+# Akıllı Ampul
+tapo>=2.0.0
+
+# Opsiyonel: Selenium web gezme
+# selenium>=4.0.0
+# webdriver-manager>=4.0.0
